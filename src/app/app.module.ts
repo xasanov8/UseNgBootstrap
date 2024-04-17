@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { DecimalPipe } from '@angular/common';
 
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { DecimalPipe } from '@angular/common';
     RouterModule,
     HttpClientModule,
     NgbModule,
-    DecimalPipe
+    DecimalPipe,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
